@@ -1,5 +1,5 @@
-site :opscode
+source "https://supermarket.chef.io"
 
 metadata
 
-cookbook	'build-essential', github: 'opscode-cookbooks/build-essential'
+cookbook 'build-essential'
